@@ -1,14 +1,17 @@
 package com.leaf.shop.user;
 
+import com.leaf.shop.common.entity.BaseTimeEntity;
+import lombok.AccessLevel;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
 @Getter
-@NoArgsConstructor
+@NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Entity
-public class User {
+public class User extends BaseTimeEntity {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
@@ -17,9 +20,11 @@ public class User {
     @Enumerated(EnumType.STRING)
     private UserProvider provider;
 
+    @Builder
     public User(String email, String nickname, UserProvider provider) {
         this.email = email;
         this.nickname = nickname;
         this.provider = provider;
     }
+
 }
