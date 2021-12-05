@@ -1,4 +1,4 @@
-package com.leaf.shop.user;
+package com.leaf.shop.module.user;
 
 public enum UserProvider {
     KAKAO, GOOGLE

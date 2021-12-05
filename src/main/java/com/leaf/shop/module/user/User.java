@@ -1,6 +1,6 @@
-package com.leaf.shop.user;
+package com.leaf.shop.module.user;
 
-import com.leaf.shop.common.entity.BaseTimeEntity;
+import com.leaf.shop.module.common.domain.BaseTimeEntity;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
@@ -26,5 +26,4 @@ public class User extends BaseTimeEntity {
         this.nickname = nickname;
         this.provider = provider;
     }
-
 }

@@ -1,6 +1,6 @@
 package com.leaf.shop.security;
 
-import com.leaf.shop.user.UserRepository;
+import com.leaf.shop.module.user.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

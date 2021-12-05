@@ -16,7 +16,7 @@ public class TokenProvider {
     @Value("${jwt.secret}")
     private String jwtSecret;
     // 30일
-    public final static long ACCESS_TOKEN_EXPIRATION_SECOND = 60 * 60 * 24 * 30L;
+    public final static long ACCESS_TOKEN_EXPIRATION_SECOND = 60 * 60 * 24 * 300L;
     public final static String ACCESS_TOKEN_COOKIE_NAME = "access_token";
 
 

@@ -1,4 +1,4 @@
-package com.leaf.shop.user;
+package com.leaf.shop.module.user;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

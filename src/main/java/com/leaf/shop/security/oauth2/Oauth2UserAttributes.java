@@ -1,6 +1,6 @@
 package com.leaf.shop.security.oauth2;
 
-import com.leaf.shop.user.UserProvider;
+import com.leaf.shop.module.user.UserProvider;
 import lombok.Builder;
 import lombok.Getter;
 

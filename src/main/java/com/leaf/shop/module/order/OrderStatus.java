@@ -1,0 +1,6 @@
+package com.leaf.shop.module.order;
+
+public enum OrderStatus {
+    PAY_PENDING, PAY_COMPLETE, PRODUCT_PREPARING, DELIVERY_PENDING, DELIVERING, DELIVERY_COMPLETE, ORDER_CONFIRM,
+    ORDER_CANCEL
+}
