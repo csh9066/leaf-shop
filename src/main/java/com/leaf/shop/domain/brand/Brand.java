@@ -1,6 +1,6 @@
 package com.leaf.shop.domain.brand;
 
-import com.leaf.shop.module.common.domain.BaseTimeEntity;
+import com.leaf.shop.domain.BaseTimeEntity;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,7 +1,7 @@
 package com.leaf.shop.domain.product;
 
 import com.leaf.shop.domain.brand.Brand;
-import com.leaf.shop.module.common.domain.BaseTimeEntity;
+import com.leaf.shop.domain.BaseTimeEntity;
 import com.leaf.shop.domain.review.Review;
 import lombok.AccessLevel;
 import lombok.Builder;

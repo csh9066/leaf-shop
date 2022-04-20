@@ -1,6 +1,6 @@
 package com.leaf.shop.domain.address;
 
-import com.leaf.shop.module.common.converter.BooleanToYNConverter;
+import com.leaf.shop.domain.BooleanToYNConverter;
 import com.leaf.shop.dto.AddressDto;
 import com.leaf.shop.domain.user.User;
 import lombok.AccessLevel;

@@ -1,4 +1,4 @@
-package com.leaf.shop.module.common.converter;
+package com.leaf.shop.domain;
 
 import javax.persistence.AttributeConverter;
 

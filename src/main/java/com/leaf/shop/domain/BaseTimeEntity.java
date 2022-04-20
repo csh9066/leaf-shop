@@ -1,4 +1,4 @@
-package com.leaf.shop.module.common.domain;
+package com.leaf.shop.domain;
 
 import com.querydsl.core.annotations.QueryExclude;
 import lombok.Getter;
