@@ -1,7 +1,7 @@
 package com.leaf.shop.web.controller;
 
 import com.leaf.shop.service.BrandService;
-import com.leaf.shop.module.brand.dto.BrandDto;
+import com.leaf.shop.dto.BrandDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

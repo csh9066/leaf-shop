@@ -1,4 +1,4 @@
-package com.leaf.shop.module.order.dto;
+package com.leaf.shop.dto.order;
 
 
 import com.leaf.shop.domain.order.OrderAddress;

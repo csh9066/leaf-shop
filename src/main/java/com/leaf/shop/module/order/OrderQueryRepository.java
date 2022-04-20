@@ -1,7 +1,7 @@
 package com.leaf.shop.module.order;
 
 import com.leaf.shop.domain.order.Order;
-import com.leaf.shop.module.order.dto.OrderItemDto;
+import com.leaf.shop.dto.order.OrderItemDto;
 import com.querydsl.core.types.Projections;
 import com.querydsl.core.types.dsl.BooleanExpression;
 import com.querydsl.jpa.JPQLQueryFactory;

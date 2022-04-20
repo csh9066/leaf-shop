@@ -1,4 +1,4 @@
-package com.leaf.shop.module.product.dto;
+package com.leaf.shop.dto.prodcut;
 
 import lombok.Data;
 

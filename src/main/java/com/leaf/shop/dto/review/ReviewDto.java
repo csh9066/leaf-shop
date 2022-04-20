@@ -1,4 +1,4 @@
-package com.leaf.shop.module.review.dto;
+package com.leaf.shop.dto.review;
 
 import com.leaf.shop.domain.review.Review;
 import lombok.AllArgsConstructor;

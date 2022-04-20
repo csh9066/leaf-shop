@@ -1,4 +1,4 @@
-package com.leaf.shop.module.brand.dto;
+package com.leaf.shop.dto;
 
 import com.leaf.shop.domain.brand.Brand;
 import lombok.AllArgsConstructor;

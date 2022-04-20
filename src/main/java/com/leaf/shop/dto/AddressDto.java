@@ -1,4 +1,4 @@
-package com.leaf.shop.module.address.dto;
+package com.leaf.shop.dto;
 
 import com.leaf.shop.domain.address.Address;
 import lombok.Data;

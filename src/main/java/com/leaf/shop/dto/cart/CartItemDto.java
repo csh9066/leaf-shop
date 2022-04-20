@@ -1,4 +1,4 @@
-package com.leaf.shop.module.cart.dto;
+package com.leaf.shop.dto.cart;
 
 import lombok.Builder;
 import lombok.Data;

@@ -1,6 +1,6 @@
-package com.leaf.shop.module.order.dto;
+package com.leaf.shop.dto.order;
 
-import com.leaf.shop.module.address.dto.AddressDto;
+import com.leaf.shop.dto.AddressDto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

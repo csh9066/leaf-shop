@@ -1,4 +1,4 @@
-package com.leaf.shop.module.user.dto;
+package com.leaf.shop.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

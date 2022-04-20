@@ -1,7 +1,7 @@
 package com.leaf.shop.module.product;
 
 import com.leaf.shop.domain.product.Product;
-import com.leaf.shop.module.product.dto.ProductDto;
+import com.leaf.shop.dto.prodcut.ProductDto;
 import com.querydsl.jpa.JPQLQueryFactory;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Pageable;

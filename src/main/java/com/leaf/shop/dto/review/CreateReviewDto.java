@@ -1,4 +1,4 @@
-package com.leaf.shop.module.review.dto;
+package com.leaf.shop.dto.review;
 
 import lombok.Data;
 
