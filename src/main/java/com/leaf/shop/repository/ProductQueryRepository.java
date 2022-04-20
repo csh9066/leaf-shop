@@ -1,4 +1,4 @@
-package com.leaf.shop.module.product;
+package com.leaf.shop.repository;
 
 import com.leaf.shop.domain.product.Product;
 import com.leaf.shop.dto.prodcut.ProductDto;

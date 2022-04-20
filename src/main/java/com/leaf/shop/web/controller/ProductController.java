@@ -1,7 +1,7 @@
 package com.leaf.shop.web.controller;
 
 import com.leaf.shop.domain.product.Product;
-import com.leaf.shop.module.product.ProductQueryRepository;
+import com.leaf.shop.repository.ProductQueryRepository;
 import com.leaf.shop.service.ProductService;
 import com.leaf.shop.dto.prodcut.CreateProductRequest;
 import com.leaf.shop.dto.review.CreateReviewDto;

@@ -1,5 +1,6 @@
-package com.leaf.shop.domain.cart;
+package com.leaf.shop.repository;
 
+import com.leaf.shop.domain.cart.Cart;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

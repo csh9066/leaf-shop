@@ -1,5 +1,6 @@
-package com.leaf.shop.domain.user;
+package com.leaf.shop.repository;
 
+import com.leaf.shop.domain.user.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

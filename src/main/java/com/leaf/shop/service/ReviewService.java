@@ -1,12 +1,12 @@
 package com.leaf.shop.service;
 
 import com.leaf.shop.domain.review.Review;
-import com.leaf.shop.domain.review.ReviewRepository;
+import com.leaf.shop.repository.ReviewRepository;
 import com.leaf.shop.exception.ResourceNotFoundException;
 import com.leaf.shop.domain.order.OrderItem;
-import com.leaf.shop.domain.order.OrderItemRepository;
+import com.leaf.shop.repository.OrderItemRepository;
 import com.leaf.shop.domain.product.Product;
-import com.leaf.shop.domain.product.ProductRepository;
+import com.leaf.shop.repository.ProductRepository;
 import com.leaf.shop.dto.review.CreateReviewDto;
 import com.leaf.shop.dto.review.ReviewDto;
 import com.leaf.shop.domain.user.User;

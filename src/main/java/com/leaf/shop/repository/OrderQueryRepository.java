@@ -1,4 +1,4 @@
-package com.leaf.shop.module.order;
+package com.leaf.shop.repository;
 
 import com.leaf.shop.domain.order.Order;
 import com.leaf.shop.dto.order.OrderItemDto;

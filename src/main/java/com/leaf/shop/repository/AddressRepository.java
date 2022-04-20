@@ -1,5 +1,6 @@
-package com.leaf.shop.domain.address;
+package com.leaf.shop.repository;
 
+import com.leaf.shop.domain.address.Address;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

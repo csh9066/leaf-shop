@@ -1,6 +1,6 @@
 package com.leaf.shop.service;
 
-import com.leaf.shop.domain.brand.BrandRepository;
+import com.leaf.shop.repository.BrandRepository;
 import com.leaf.shop.dto.BrandDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

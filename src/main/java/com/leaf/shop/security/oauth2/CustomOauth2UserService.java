@@ -3,7 +3,7 @@ package com.leaf.shop.security.oauth2;
 import com.leaf.shop.service.CartService;
 import com.leaf.shop.security.UserPrincipal;
 import com.leaf.shop.domain.user.User;
-import com.leaf.shop.domain.user.UserRepository;
+import com.leaf.shop.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.oauth2.client.userinfo.DefaultOAuth2UserService;

@@ -1,7 +1,7 @@
 package com.leaf.shop.service;
 
 import com.leaf.shop.domain.address.Address;
-import com.leaf.shop.domain.address.AddressRepository;
+import com.leaf.shop.repository.AddressRepository;
 import com.leaf.shop.dto.AddressDto;
 import com.leaf.shop.domain.user.User;
 import lombok.RequiredArgsConstructor;

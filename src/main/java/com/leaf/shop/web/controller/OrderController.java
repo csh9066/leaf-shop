@@ -1,6 +1,6 @@
 package com.leaf.shop.web.controller;
 
-import com.leaf.shop.module.order.OrderQueryRepository;
+import com.leaf.shop.repository.OrderQueryRepository;
 import com.leaf.shop.service.OrderQueryService;
 import com.leaf.shop.service.OrderService;
 import com.leaf.shop.dto.order.OrderDto;

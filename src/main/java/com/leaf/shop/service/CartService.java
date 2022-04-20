@@ -2,8 +2,8 @@ package com.leaf.shop.service;
 
 import com.leaf.shop.domain.cart.Cart;
 import com.leaf.shop.domain.cart.CartItem;
-import com.leaf.shop.domain.cart.CartItemRepository;
-import com.leaf.shop.domain.cart.CartRepository;
+import com.leaf.shop.repository.CartItemRepository;
+import com.leaf.shop.repository.CartRepository;
 import com.leaf.shop.exception.AlreadyCartProductExistException;
 import com.leaf.shop.dto.cart.AddCartItemDto;
 import com.leaf.shop.exception.ResourceNotFoundException;

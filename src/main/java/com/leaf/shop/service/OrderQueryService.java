@@ -2,7 +2,7 @@ package com.leaf.shop.service;
 
 import com.leaf.shop.domain.order.Order;
 import com.leaf.shop.exception.ResourceNotFoundException;
-import com.leaf.shop.module.order.OrderQueryRepository;
+import com.leaf.shop.repository.OrderQueryRepository;
 import com.leaf.shop.dto.order.OrderDto;
 import com.leaf.shop.dto.order.OrderItemDto;
 import com.siot.IamportRestClient.response.Payment;
