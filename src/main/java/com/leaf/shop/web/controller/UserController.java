@@ -1,5 +1,7 @@
-package com.leaf.shop.module.user;
+package com.leaf.shop.web.controller;
 
+import com.leaf.shop.module.user.User;
+import com.leaf.shop.module.user.UserService;
 import com.leaf.shop.module.user.dto.UserInfoDto;
 import com.leaf.shop.security.AuthUser;
 import com.leaf.shop.security.UserPrincipal;

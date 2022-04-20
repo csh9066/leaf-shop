@@ -1,5 +1,8 @@
-package com.leaf.shop.module.product;
+package com.leaf.shop.web.controller;
 
+import com.leaf.shop.module.product.Product;
+import com.leaf.shop.module.product.ProductQueryRepository;
+import com.leaf.shop.module.product.ProductService;
 import com.leaf.shop.module.product.dto.CreateProductRequest;
 import com.leaf.shop.module.review.dto.CreateReviewDto;
 import com.leaf.shop.module.product.dto.ProductDto;
