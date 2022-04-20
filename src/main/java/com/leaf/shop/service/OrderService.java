@@ -1,21 +1,21 @@
-package com.leaf.shop.module.order;
+package com.leaf.shop.service;
 
 import com.leaf.shop.domain.address.Address;
 import com.leaf.shop.domain.address.AddressRepository;
 import com.leaf.shop.domain.order.*;
-import com.leaf.shop.module.address.AddressService;
+import com.leaf.shop.service.AddressService;
 import com.leaf.shop.module.address.dto.AddressDto;
 import com.leaf.shop.domain.cart.Cart;
 import com.leaf.shop.domain.cart.CartRepository;
-import com.leaf.shop.module.cart.CartService;
+import com.leaf.shop.service.CartService;
 import com.leaf.shop.module.order.dto.PayCompleteOrderForm;
 import com.leaf.shop.module.order.dto.OrderCheckoutDto;
 import com.leaf.shop.module.order.dto.OrderCheckoutProductDto;
-import com.leaf.shop.module.payment.IamportApiService;
+import com.leaf.shop.service.IamportApiService;
 import com.leaf.shop.domain.product.Product;
 import com.leaf.shop.domain.product.ProductRepository;
 import com.leaf.shop.domain.user.User;
-import com.leaf.shop.module.user.UserService;
+import com.leaf.shop.service.UserService;
 import com.siot.IamportRestClient.response.Payment;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

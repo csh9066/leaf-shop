@@ -1,4 +1,4 @@
-package com.leaf.shop.module.review;
+package com.leaf.shop.service;
 
 import com.leaf.shop.domain.review.Review;
 import com.leaf.shop.domain.review.ReviewRepository;
@@ -10,7 +10,7 @@ import com.leaf.shop.domain.product.ProductRepository;
 import com.leaf.shop.module.review.dto.CreateReviewDto;
 import com.leaf.shop.module.review.dto.ReviewDto;
 import com.leaf.shop.domain.user.User;
-import com.leaf.shop.module.user.UserService;
+import com.leaf.shop.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

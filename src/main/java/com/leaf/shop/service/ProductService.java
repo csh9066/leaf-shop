@@ -1,4 +1,4 @@
-package com.leaf.shop.module.product;
+package com.leaf.shop.service;
 
 import com.leaf.shop.domain.product.Product;
 import com.leaf.shop.domain.product.ProductRepository;

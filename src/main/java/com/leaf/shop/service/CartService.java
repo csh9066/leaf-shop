@@ -1,17 +1,16 @@
-package com.leaf.shop.module.cart;
+package com.leaf.shop.service;
 
 import com.leaf.shop.domain.cart.Cart;
 import com.leaf.shop.domain.cart.CartItem;
 import com.leaf.shop.domain.cart.CartItemRepository;
 import com.leaf.shop.domain.cart.CartRepository;
+import com.leaf.shop.module.cart.AlreadyCartProductExistException;
 import com.leaf.shop.module.cart.dto.AddCartItemDto;
 import com.leaf.shop.module.common.exception.ResourceNotFoundException;
 import com.leaf.shop.module.cart.dto.CartItemByBrandDto;
 import com.leaf.shop.module.cart.dto.CartItemDto;
 import com.leaf.shop.domain.product.Product;
-import com.leaf.shop.module.product.ProductService;
 import com.leaf.shop.domain.user.User;
-import com.leaf.shop.module.user.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

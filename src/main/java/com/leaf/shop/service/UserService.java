@@ -1,4 +1,4 @@
-package com.leaf.shop.module.user;
+package com.leaf.shop.service;
 
 import com.leaf.shop.domain.user.User;
 import com.leaf.shop.domain.user.UserRepository;

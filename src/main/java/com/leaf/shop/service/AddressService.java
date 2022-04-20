@@ -1,10 +1,9 @@
-package com.leaf.shop.module.address;
+package com.leaf.shop.service;
 
 import com.leaf.shop.domain.address.Address;
 import com.leaf.shop.domain.address.AddressRepository;
 import com.leaf.shop.module.address.dto.AddressDto;
 import com.leaf.shop.domain.user.User;
-import com.leaf.shop.module.user.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -2,11 +2,11 @@ package com.leaf.shop.web.controller;
 
 import com.leaf.shop.domain.product.Product;
 import com.leaf.shop.module.product.ProductQueryRepository;
-import com.leaf.shop.module.product.ProductService;
+import com.leaf.shop.service.ProductService;
 import com.leaf.shop.module.product.dto.CreateProductRequest;
 import com.leaf.shop.module.review.dto.CreateReviewDto;
 import com.leaf.shop.module.product.dto.ProductDto;
-import com.leaf.shop.module.review.ReviewService;
+import com.leaf.shop.service.ReviewService;
 import com.leaf.shop.security.AuthUser;
 import com.leaf.shop.security.UserPrincipal;
 import lombok.RequiredArgsConstructor;

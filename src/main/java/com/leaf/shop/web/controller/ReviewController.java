@@ -1,6 +1,6 @@
 package com.leaf.shop.web.controller;
 
-import com.leaf.shop.module.review.ReviewService;
+import com.leaf.shop.service.ReviewService;
 import com.leaf.shop.module.review.dto.ReviewDto;
 import com.leaf.shop.security.AuthUser;
 import com.leaf.shop.security.UserPrincipal;

@@ -1,10 +1,11 @@
-package com.leaf.shop.module.order;
+package com.leaf.shop.service;
 
 import com.leaf.shop.domain.order.Order;
 import com.leaf.shop.module.common.exception.ResourceNotFoundException;
+import com.leaf.shop.module.order.OrderQueryRepository;
 import com.leaf.shop.module.order.dto.OrderDto;
 import com.leaf.shop.module.order.dto.OrderItemDto;
-import com.leaf.shop.module.payment.IamportApiService;
+import com.leaf.shop.service.IamportApiService;
 import com.siot.IamportRestClient.response.Payment;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
 package com.leaf.shop.security.oauth2;
 
-import com.leaf.shop.module.cart.CartService;
+import com.leaf.shop.service.CartService;
 import com.leaf.shop.security.UserPrincipal;
 import com.leaf.shop.domain.user.User;
 import com.leaf.shop.domain.user.UserRepository;

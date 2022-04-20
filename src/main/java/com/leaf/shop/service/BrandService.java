@@ -1,4 +1,4 @@
-package com.leaf.shop.module.brand;
+package com.leaf.shop.service;
 
 import com.leaf.shop.domain.brand.BrandRepository;
 import com.leaf.shop.module.brand.dto.BrandDto;
