@@ -1,4 +1,4 @@
-package com.leaf.shop.module.common.exception;
+package com.leaf.shop.exception;
 
 import lombok.Getter;
 import org.springframework.http.HttpStatus;

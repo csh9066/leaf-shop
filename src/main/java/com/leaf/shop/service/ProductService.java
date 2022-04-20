@@ -2,7 +2,7 @@ package com.leaf.shop.service;
 
 import com.leaf.shop.domain.product.Product;
 import com.leaf.shop.domain.product.ProductRepository;
-import com.leaf.shop.module.common.exception.ResourceNotFoundException;
+import com.leaf.shop.exception.ResourceNotFoundException;
 import com.leaf.shop.dto.prodcut.CreateProductRequest;
 import com.leaf.shop.dto.prodcut.ProductDto;
 import lombok.RequiredArgsConstructor;

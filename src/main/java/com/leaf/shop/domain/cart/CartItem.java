@@ -1,6 +1,6 @@
 package com.leaf.shop.domain.cart;
 
-import com.leaf.shop.module.cart.AlreadyCartProductExistException;
+import com.leaf.shop.exception.AlreadyCartProductExistException;
 import com.leaf.shop.module.common.converter.BooleanToYNConverter;
 import com.leaf.shop.module.common.domain.BaseTimeEntity;
 import com.leaf.shop.domain.product.Product;

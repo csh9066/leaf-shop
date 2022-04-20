@@ -1,4 +1,4 @@
-package com.leaf.shop.module.cart;
+package com.leaf.shop.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
