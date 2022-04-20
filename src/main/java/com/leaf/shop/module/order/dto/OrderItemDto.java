@@ -1,8 +1,7 @@
 package com.leaf.shop.module.order.dto;
 
-import com.leaf.shop.module.order.OrderItem;
-import com.leaf.shop.module.order.OrderStatus;
-import lombok.Builder;
+import com.leaf.shop.domain.order.OrderItem;
+import com.leaf.shop.domain.order.OrderStatus;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

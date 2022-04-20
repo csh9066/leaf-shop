@@ -1,13 +1,15 @@
 package com.leaf.shop.module.review;
 
+import com.leaf.shop.domain.review.Review;
+import com.leaf.shop.domain.review.ReviewRepository;
 import com.leaf.shop.module.common.exception.ResourceNotFoundException;
-import com.leaf.shop.module.order.OrderItem;
-import com.leaf.shop.module.order.OrderItemRepository;
-import com.leaf.shop.module.product.Product;
-import com.leaf.shop.module.product.ProductRepository;
+import com.leaf.shop.domain.order.OrderItem;
+import com.leaf.shop.domain.order.OrderItemRepository;
+import com.leaf.shop.domain.product.Product;
+import com.leaf.shop.domain.product.ProductRepository;
 import com.leaf.shop.module.review.dto.CreateReviewDto;
 import com.leaf.shop.module.review.dto.ReviewDto;
-import com.leaf.shop.module.user.User;
+import com.leaf.shop.domain.user.User;
 import com.leaf.shop.module.user.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

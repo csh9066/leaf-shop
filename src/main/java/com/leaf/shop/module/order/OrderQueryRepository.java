@@ -1,11 +1,7 @@
 package com.leaf.shop.module.order;
 
-import com.leaf.shop.module.address.QAddress;
-import com.leaf.shop.module.brand.QBrand;
-import com.leaf.shop.module.order.dto.OrderDto;
+import com.leaf.shop.domain.order.Order;
 import com.leaf.shop.module.order.dto.OrderItemDto;
-import com.leaf.shop.module.product.QProduct;
-import com.leaf.shop.module.user.QUser;
 import com.querydsl.core.types.Projections;
 import com.querydsl.core.types.dsl.BooleanExpression;
 import com.querydsl.jpa.JPQLQueryFactory;
@@ -15,11 +11,10 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 import java.util.Optional;
 
-import static com.leaf.shop.module.address.QAddress.*;
-import static com.leaf.shop.module.brand.QBrand.*;
-import static com.leaf.shop.module.order.QOrder.*;
-import static com.leaf.shop.module.order.QOrderItem.*;
-import static com.leaf.shop.module.product.QProduct.product;
+import static com.leaf.shop.domain.brand.QBrand.brand;
+import static com.leaf.shop.domain.order.QOrder.order;
+import static com.leaf.shop.domain.order.QOrderItem.orderItem;
+import static com.leaf.shop.domain.product.QProduct.product;
 
 @RequiredArgsConstructor
 @Repository

@@ -1,4 +1,4 @@
-package com.leaf.shop.module.product;
+package com.leaf.shop.domain.product;
 
 public class ProductOption {
     private long id;

@@ -1,6 +1,6 @@
 package com.leaf.shop.module.brand.dto;
 
-import com.leaf.shop.module.brand.Brand;
+import com.leaf.shop.domain.brand.Brand;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

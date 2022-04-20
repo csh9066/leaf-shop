@@ -1,5 +1,6 @@
 package com.leaf.shop.module.product;
 
+import com.leaf.shop.domain.product.Product;
 import com.leaf.shop.module.product.dto.ProductDto;
 import com.querydsl.jpa.JPQLQueryFactory;
 import lombok.RequiredArgsConstructor;
@@ -9,8 +10,8 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static com.leaf.shop.module.brand.QBrand.*;
-import static com.leaf.shop.module.product.QProduct.*;
+import static com.leaf.shop.domain.brand.QBrand.brand;
+import static com.leaf.shop.domain.product.QProduct.*;
 
 @RequiredArgsConstructor
 @Repository

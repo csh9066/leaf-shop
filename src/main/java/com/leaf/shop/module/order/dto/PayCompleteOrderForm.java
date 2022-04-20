@@ -1,9 +1,7 @@
 package com.leaf.shop.module.order.dto;
 
 import com.leaf.shop.module.address.dto.AddressDto;
-import com.leaf.shop.module.order.OrderAddress;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;

@@ -1,7 +1,7 @@
 package com.leaf.shop.security;
 
-import com.leaf.shop.module.user.User;
-import com.leaf.shop.module.user.UserRepository;
+import com.leaf.shop.domain.user.User;
+import com.leaf.shop.domain.user.UserRepository;
 import com.leaf.shop.util.CookieUtils;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

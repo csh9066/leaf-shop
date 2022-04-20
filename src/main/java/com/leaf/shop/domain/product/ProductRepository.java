@@ -1,4 +1,4 @@
-package com.leaf.shop.module.product;
+package com.leaf.shop.domain.product;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

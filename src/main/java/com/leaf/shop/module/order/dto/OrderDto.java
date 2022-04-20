@@ -1,7 +1,7 @@
 package com.leaf.shop.module.order.dto;
 
 
-import com.leaf.shop.module.order.OrderAddress;
+import com.leaf.shop.domain.order.OrderAddress;
 import com.siot.IamportRestClient.response.Payment;
 import lombok.Builder;
 import lombok.Data;

@@ -1,8 +1,9 @@
-package com.leaf.shop.module.cart;
+package com.leaf.shop.domain.cart;
 
+import com.leaf.shop.module.cart.AlreadyCartProductExistException;
 import com.leaf.shop.module.common.converter.BooleanToYNConverter;
 import com.leaf.shop.module.common.domain.BaseTimeEntity;
-import com.leaf.shop.module.product.Product;
+import com.leaf.shop.domain.product.Product;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;

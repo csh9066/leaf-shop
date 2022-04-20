@@ -1,8 +1,8 @@
 package com.leaf.shop.module.product.dto;
 
-import com.leaf.shop.module.brand.Brand;
+import com.leaf.shop.domain.brand.Brand;
 import com.leaf.shop.module.brand.dto.BrandDto;
-import com.leaf.shop.module.product.Product;
+import com.leaf.shop.domain.product.Product;
 import lombok.Data;
 
 @Data

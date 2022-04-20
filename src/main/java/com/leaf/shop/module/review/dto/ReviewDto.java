@@ -1,6 +1,6 @@
 package com.leaf.shop.module.review.dto;
 
-import com.leaf.shop.module.review.Review;
+import com.leaf.shop.domain.review.Review;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 

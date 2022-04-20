@@ -1,4 +1,4 @@
-package com.leaf.shop.module.user;
+package com.leaf.shop.domain.user;
 
 import com.leaf.shop.module.common.domain.BaseTimeEntity;
 import lombok.AccessLevel;

@@ -1,7 +1,7 @@
-package com.leaf.shop.module.order;
+package com.leaf.shop.domain.order;
 
 import com.leaf.shop.module.common.domain.BaseTimeEntity;
-import com.leaf.shop.module.product.Product;
+import com.leaf.shop.domain.product.Product;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;

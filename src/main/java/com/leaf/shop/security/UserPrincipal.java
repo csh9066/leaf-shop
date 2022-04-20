@@ -1,6 +1,6 @@
 package com.leaf.shop.security;
 
-import com.leaf.shop.module.user.User;
+import com.leaf.shop.domain.user.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

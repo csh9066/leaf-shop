@@ -1,5 +1,7 @@
 package com.leaf.shop.module.user;
 
+import com.leaf.shop.domain.user.User;
+import com.leaf.shop.domain.user.UserRepository;
 import com.leaf.shop.module.common.exception.ResourceNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

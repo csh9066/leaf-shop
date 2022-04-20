@@ -1,5 +1,7 @@
 package com.leaf.shop.module.product;
 
+import com.leaf.shop.domain.product.Product;
+import com.leaf.shop.domain.product.ProductRepository;
 import com.leaf.shop.module.common.exception.ResourceNotFoundException;
 import com.leaf.shop.module.product.dto.CreateProductRequest;
 import com.leaf.shop.module.product.dto.ProductDto;

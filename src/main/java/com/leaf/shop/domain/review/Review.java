@@ -1,8 +1,8 @@
-package com.leaf.shop.module.review;
+package com.leaf.shop.domain.review;
 
 import com.leaf.shop.module.common.domain.BaseTimeEntity;
-import com.leaf.shop.module.product.Product;
-import com.leaf.shop.module.user.User;
+import com.leaf.shop.domain.product.Product;
+import com.leaf.shop.domain.user.User;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

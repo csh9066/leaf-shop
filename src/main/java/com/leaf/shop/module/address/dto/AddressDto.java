@@ -1,6 +1,6 @@
 package com.leaf.shop.module.address.dto;
 
-import com.leaf.shop.module.address.Address;
+import com.leaf.shop.domain.address.Address;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

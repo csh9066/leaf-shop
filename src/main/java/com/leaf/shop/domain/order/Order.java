@@ -1,6 +1,6 @@
-package com.leaf.shop.module.order;
+package com.leaf.shop.domain.order;
 
-import com.leaf.shop.module.user.User;
+import com.leaf.shop.domain.user.User;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;

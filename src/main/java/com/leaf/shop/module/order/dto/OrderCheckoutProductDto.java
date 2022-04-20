@@ -1,6 +1,6 @@
 package com.leaf.shop.module.order.dto;
 
-import com.leaf.shop.module.cart.CartItem;
+import com.leaf.shop.domain.cart.CartItem;
 import lombok.Data;
 
 @Data

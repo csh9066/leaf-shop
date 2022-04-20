@@ -1,7 +1,7 @@
-package com.leaf.shop.module.cart;
+package com.leaf.shop.domain.cart;
 
 import com.leaf.shop.module.common.domain.BaseTimeEntity;
-import com.leaf.shop.module.user.User;
+import com.leaf.shop.domain.user.User;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

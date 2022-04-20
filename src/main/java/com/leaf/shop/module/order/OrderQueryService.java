@@ -1,5 +1,6 @@
 package com.leaf.shop.module.order;
 
+import com.leaf.shop.domain.order.Order;
 import com.leaf.shop.module.common.exception.ResourceNotFoundException;
 import com.leaf.shop.module.order.dto.OrderDto;
 import com.leaf.shop.module.order.dto.OrderItemDto;
