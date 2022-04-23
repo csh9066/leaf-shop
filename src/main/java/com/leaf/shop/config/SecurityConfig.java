@@ -1,18 +1,16 @@
 package com.leaf.shop.config;
 
 import com.leaf.shop.security.RestAuthenticationEntryPoint;
-import com.leaf.shop.security.TokenAuthenticationFilter;
+import com.leaf.shop.security.oauth2.CustomOauth2AuthorizationFailureHandler;
 import com.leaf.shop.security.oauth2.CustomOauth2UserService;
-import com.leaf.shop.security.oauth2.HttpCookieOAuth2AuthorizationRequestRepository;
-import com.leaf.shop.security.oauth2.OAuth2AuthenticationFailureHandler;
-import com.leaf.shop.security.oauth2.OAuth2AuthenticationSuccessHandler;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
-import org.springframework.security.config.http.SessionCreationPolicy;
-import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import org.springframework.security.oauth2.client.web.AuthorizationRequestRepository;
+import org.springframework.security.web.authentication.AuthenticationFailureHandler;
+import org.springframework.security.web.authentication.AuthenticationSuccessHandler;
 
 @RequiredArgsConstructor
 @EnableGlobalMethodSecurity(prePostEnabled = true)
@@ -20,13 +18,10 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     private final RestAuthenticationEntryPoint restAuthenticationEntryPoint;
-    private final HttpCookieOAuth2AuthorizationRequestRepository httpCookieOAuth2AuthorizationRequestRepository;
     private final CustomOauth2UserService customOauth2UserService;
-    private final OAuth2AuthenticationSuccessHandler oAuth2AuthenticationSuccessHandler;
-    private final OAuth2AuthenticationFailureHandler oAuth2AuthenticationFailureHandler;
-    private final TokenAuthenticationFilter tokenAuthenticationFilter;
-
-
+    private final AuthorizationRequestRepository oAuth2AuthorizationRequestBasedOnSessionRepository;
+    private final AuthenticationSuccessHandler customOAuth2AuthorizationSuccessHandler;
+    private final AuthenticationFailureHandler customOauth2AuthorizationFailureHandler;
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
@@ -34,8 +29,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 formLogin().disable()
                 .csrf().disable()
                 .cors()
-                .and()
-                .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()
                 .httpBasic().disable()
                 .exceptionHandling()
@@ -48,14 +41,12 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
         http.oauth2Login()
                 .authorizationEndpoint()
-                    .authorizationRequestRepository(httpCookieOAuth2AuthorizationRequestRepository)
-                    .and()
+                .authorizationRequestRepository(oAuth2AuthorizationRequestBasedOnSessionRepository)
+                .and()
                 .userInfoEndpoint()
                 .userService(customOauth2UserService)
                 .and()
-                .successHandler(oAuth2AuthenticationSuccessHandler)
-                .failureHandler(oAuth2AuthenticationFailureHandler);
-
-        http.addFilterBefore(tokenAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
+                .successHandler(customOAuth2AuthorizationSuccessHandler)
+                .failureHandler(customOauth2AuthorizationFailureHandler);
     }
 }

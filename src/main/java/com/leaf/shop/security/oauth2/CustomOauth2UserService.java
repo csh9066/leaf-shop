@@ -41,9 +41,8 @@ public class CustomOauth2UserService implements OAuth2UserService<OAuth2UserRequ
         if (findUser.isPresent()) {
             user = findUser.get();
             if (user.getProvider() != oauth2UserAttributes.getProvider()) {
-                throw new OAuth2AuthenticationProcessingException(user.getEmail()+"은 이미 "+user.getProvider() +" 로 회원가입된 이메일 입니다");
+                throw new OAuth2AuthenticationException(user.getEmail()+"은 이미 "+user.getProvider() +" 로 회원가입된 이메일 입니다");
             }
-
         } else {
             user = new User(oauth2UserAttributes.getEmail(), oauth2UserAttributes.getNickname(), oauth2UserAttributes.getProvider());
             userRepository.save(user);
