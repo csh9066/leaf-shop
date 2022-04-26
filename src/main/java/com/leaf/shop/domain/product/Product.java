@@ -2,6 +2,7 @@ package com.leaf.shop.domain.product;
 
 import com.leaf.shop.domain.brand.Brand;
 import com.leaf.shop.domain.BaseTimeEntity;
+import com.leaf.shop.domain.category.Category;
 import com.leaf.shop.domain.review.Review;
 import lombok.AccessLevel;
 import lombok.Builder;
@@ -25,6 +26,12 @@ public class Product extends BaseTimeEntity {
     @Column(columnDefinition = "TEXT")
     private String detail;
     private int stock;
+    @ManyToMany
+    @JoinTable(name = "product_category",
+            joinColumns = @JoinColumn(name = "product_id"),
+            inverseJoinColumns = @JoinColumn(name = "category_id")
+    )
+    private List<Category> categories = new ArrayList<>();
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "brand_id")
     private Brand brand;
